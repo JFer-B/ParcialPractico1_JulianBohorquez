@@ -1,0 +1,20 @@
+﻿<Page x:Class="ParcialPractico1_JulianBohorquez.LogIn"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:ParcialPractico1_JulianBohorquez"
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="750"
+      Title="LogIn">
+
+    <Grid Background="#FFC9CD99">
+        <Label Content="Welcome" HorizontalAlignment="Center" Height="55" Margin="0,24,0,0" VerticalAlignment="Top" Width="178" Foreground="Black" FontFamily="Eras ITC" FontWeight="Bold" FontSize="36"/>
+        <Label Content="Username" HorizontalAlignment="Left" Height="29" Margin="161,98,0,0" VerticalAlignment="Top" Width="110" FontFamily="Eras ITC" FontSize="18"/>
+        <Label Content="Password" HorizontalAlignment="Left" Height="26" Margin="161,162,0,0" VerticalAlignment="Top" Width="95" FontFamily="Eras ITC" FontSize="18"/>
+        <TextBox Name="txtUsername" HorizontalAlignment="Left" Height="30" Margin="314,98,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="226" FontFamily="Eras ITC" FontSize="18"/>
+        <PasswordBox Name="txtPassword" HorizontalAlignment="Left" Height="31" Margin="314,162,0,0" VerticalAlignment="Top" Width="226" FontFamily="Eras ITC" FontSize="18"/>
+        <Button Name="btnLogIn" Content="Log In" HorizontalAlignment="Left" Height="27" Margin="340,238,0,0" VerticalAlignment="Top" Width="99" FontFamily="Eras ITC" FontSize="16" Click="btnLogIn_Click"/>
+
+    </Grid>
+</Page>
