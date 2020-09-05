@@ -71,7 +71,8 @@ namespace ParcialPractico1_JulianBohorquez
 
         private void btnSell_Click(object sender, RoutedEventArgs e)
         {
-            txtRegister.Text = txtRegister.Text + "\n\n" + "Total.........." + Total.ToString();
+            string DateTimeSell = DateTime.Now.ToString();
+            txtRegister.Text = txtRegister.Text + "\n\n" + "Total.........." + Total.ToString() + "\n" + DateTimeSell;
         }
 
         private void btnNewSell_Click(object sender, RoutedEventArgs e)
