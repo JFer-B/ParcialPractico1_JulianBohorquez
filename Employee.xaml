@@ -22,10 +22,10 @@
         <TextBox Name="txtCantidad" HorizontalAlignment="Left" Height="20" Margin="154,184,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="51"/>
         <Label Content="Producto" HorizontalAlignment="Left" Margin="90,149,0,0" VerticalAlignment="Top" FontFamily="Eras ITC"/>
         <Label Content="Cantidad" HorizontalAlignment="Left" Margin="90,182,0,0" VerticalAlignment="Top" FontFamily="Eras ITC"/>
-        <Button Name="btnNewProduct" Content="Agregar" HorizontalAlignment="Left" Height="24" Margin="154,222,0,0" VerticalAlignment="Top" Width="63" FontFamily="Eras ITC"/>
-        <Button Name="btnSell" Content="Vender" HorizontalAlignment="Left" Height="24" Margin="228,222,0,0" VerticalAlignment="Top" Width="52" FontFamily="Eras ITC"/>
+        <Button Name="btnNewProduct" Content="Agregar Producto" HorizontalAlignment="Left" Height="24" Margin="154,222,0,0" VerticalAlignment="Top" Width="111" FontFamily="Eras ITC" Click="btnNewProduct_Click"/>
+        <Button Name="btnSell" Content="Vender" HorizontalAlignment="Left" Height="24" Margin="280,222,0,0" VerticalAlignment="Top" Width="52" FontFamily="Eras ITC" Click="btnSell_Click"/>
         <TextBlock Name="txtRegister" HorizontalAlignment="Left" Height="127" Margin="417,79,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="243" Background="White" FontFamily="Eras ITC"/>
-        <Button Name="btnNewSell" Content="Nueva Venta" HorizontalAlignment="Left" Height="24" Margin="444,223,0,0" VerticalAlignment="Top" Width="85" FontFamily="Eras ITC"/>
+        <Button Name="btnNewSell" Content="Nueva Venta" HorizontalAlignment="Left" Height="24" Margin="444,223,0,0" VerticalAlignment="Top" Width="85" FontFamily="Eras ITC" Click="btnNewSell_Click"/>
         <Button Name="btnLogOut_Employee" Content="Log Out" HorizontalAlignment="Left" Height="24" Margin="561,222,0,0" VerticalAlignment="Top" Width="70" Click="btnLogOut_Employee_Click"/>
 
     </Grid>
