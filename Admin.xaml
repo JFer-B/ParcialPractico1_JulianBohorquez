@@ -10,6 +10,8 @@
 
     <Grid>
         <Label Content="Administrator" HorizontalAlignment="Center" Height="49" Margin="0,28,0,0" VerticalAlignment="Top" Width="266" FontFamily="Eras ITC" FontSize="36" FontWeight="Bold"/>
+        <Label Content="Bienvenido" HorizontalAlignment="Center" Height="98" VerticalAlignment="Center" Width="414" FontFamily="Eras ITC" FontSize="80"/>
+        <Button Name ="btnLogOut_Admin" Content="Log Out" HorizontalAlignment="Left" Height="27" Margin="299,226,0,0" VerticalAlignment="Top" Width="99" FontSize="16" FontFamily="Eras ITC" Click="btnLogOut_Admin_Click"/>
 
     </Grid>
 </Page>

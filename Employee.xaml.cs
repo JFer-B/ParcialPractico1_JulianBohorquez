@@ -22,5 +22,11 @@ namespace ParcialPractico1_JulianBohorquez
         {
             InitializeComponent();
         }
+
+        private void btnLogOut_Employee_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow w = (MainWindow)Window.GetWindow(this);
+            w.frameMain.NavigationService.Navigate(new LogIn());
+        }
     }
 }
